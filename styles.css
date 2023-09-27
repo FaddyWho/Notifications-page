@@ -11,53 +11,47 @@ body {
     /* height: 1000vh; */
     justify-content: center;
     display: flex;
-    margin: 1.9rem;
-    background-color: rgb(234, 229, 229);
+    margin: 2rem;
 }
 
 .container {
     width: 60%;
     /* margin-top: 10vh; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px grey solid;
     border-radius: 15px;
-    background-color: white;
-    background-color: rgb(red, green, blue);
-
+    
 }
 
 header {
     display: flex;
     justify-content: space-between;
-
+    padding: 2vh 0 0 1.5vw;
+    
 }
 
 header p {
-    padding: 3vh 2vw 0 0;
     font-size: larger;
     color: gray;
     cursor: pointer;
+    
 }
 
-.notification-3 {
-    display: flex;
-    gap: 2vw;
+
+
+#notification-badge {
+    width: 30%;
+    height: 40%;
+    font-size: 30px;
+    background: rgb(42, 173, 249);
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 0.2rem 0.4rem;
+    color: rgba(255, 255, 255, 0.931);
+    
+
+
 }
 
-.notification-badge {
-    width: 3vw;
-    height: 5vh;
-    border-radius: 15%;
-    background-color: royalblue;
-    color: white;
-    font-size: 2vw;
-    font-weight: bold;
-    text-align: center;
-    margin: 3vh 2vw 0 0;
-}
-
-header h1 {
-    padding: 2vh 0 0 1.5vw;
-}
 
 /* Names */
 
@@ -66,7 +60,7 @@ header h1 {
 }
 
 .notifi-title:hover {
-    color: rgb(48, 150, 150);
+    color:rgb(48, 150, 150);
 }
 
 
@@ -85,7 +79,7 @@ header h1 {
     display: flex;
     margin: 1.5rem;
     border-radius: 15px;
-    border: 2px solid rgba(0, 0, 0, 0.039)
+    border: 1px solid rgba(0, 0, 0, 0.039)
 }
 
 .notifi img {
@@ -99,19 +93,19 @@ header h1 {
     padding: 0 0 0 2vw;
 }
 
-.message {
+/* .message {
     height: 45vh;
-}
+} */
 
 #message {
     width: 80%;
     border: 0.1vw solid lightgrey;
     color: gray;
-    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    padding: 1rem;
 }
 
 .comment {
@@ -133,10 +127,6 @@ header h1 {
     font-weight: 700;
 }
 
-.read {
-    background-color: white;
-}
-
-.unread {
+.unread{
     background-color: rgba(207, 221, 224, 0.572);
 }
