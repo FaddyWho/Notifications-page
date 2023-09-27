@@ -27,6 +27,7 @@ header p {
     padding: 3vh 2vw 0 0;
     font-size: larger;
     color: gray;
+    cursor: pointer;
 }
 
 header h1 {
@@ -37,15 +38,59 @@ header h1 {
     font-weight: 800;
 }
 
+.notifi-body {
+    color: gray;
+}
+
+.notifi-timestamp {
+    margin: 2vh 0;
+}
+
 .notifi {
     display: flex;
-    margin: 5vh 0;
+    margin: 5vh 2vw;
 }
 
 .notifi img {
     max-width: 10vw;
     max-height: 10vh;
 }
-.notifi-cnotent{
-    
+
+.notifi-content {
+    width: 100%;
+    padding: 0 0 0 2vw;
+}
+
+.message {
+    height: 45vh;
+}
+
+#message {
+    width: 80%;
+    border: 0.1vw solid lightgrey;
+    color: gray;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+#chess-pic {
+    margin-left: -20vw;
+    max-height: 30vh;
+}
+
+.strategies {
+    font-weight: 700;
+}
+
+.group-name {
+    color: royalblue;
+    font-weight: 700;
 }
