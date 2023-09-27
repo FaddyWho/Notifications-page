@@ -25,19 +25,33 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 2vh 0 0 1.5vw;
     
 }
 
 header p {
-    padding: 3vh 2vw 0 0;
     font-size: larger;
     color: gray;
     cursor: pointer;
+    
 }
 
-header h1 {
-    padding: 2vh 0 0 1.5vw;
+
+
+#notification-badge {
+    width: 30%;
+    height: 40%;
+    font-size: 30px;
+    background: rgb(42, 173, 249);
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 0.2rem 0.4rem;
+    color: rgba(255, 255, 255, 0.931);
+    
+
+
 }
+
 
 /* Names */
 
@@ -65,7 +79,7 @@ header h1 {
     display: flex;
     margin: 1.5rem;
     border-radius: 15px;
-    border: 2px solid rgba(0, 0, 0, 0.039)
+    border: 1px solid rgba(0, 0, 0, 0.039)
 }
 
 .notifi img {
@@ -79,19 +93,19 @@ header h1 {
     padding: 0 0 0 2vw;
 }
 
-.message {
+/* .message {
     height: 45vh;
-}
+} */
 
 #message {
     width: 80%;
     border: 0.1vw solid lightgrey;
     color: gray;
-    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    padding: 1rem;
 }
 
 .comment {
