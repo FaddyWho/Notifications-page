@@ -8,5 +8,11 @@ img {
     max-width: 100%;
 }
 
+.headr{
+    margin: auto;
+    width: 50%;
+    background-color: grey;
+    color: red;
+}
 
 
