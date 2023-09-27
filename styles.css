@@ -33,6 +33,9 @@ header h1 {
     padding: 2vh 0 0 1.5vw;
 }
 
+.notifi-title {
+    font-weight: 800;
+}
 
 .notifi {
     display: flex;
@@ -42,4 +45,7 @@ header h1 {
 .notifi img {
     max-width: 10vw;
     max-height: 10vh;
+}
+.notifi-cnotent{
+    
 }
