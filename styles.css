@@ -15,7 +15,6 @@ body {
 
 .container {
     width: 80%;
-    background-color: aqua;
     margin-top: 10vh;
 }
 
@@ -32,4 +31,15 @@ header p {
 
 header h1 {
     padding: 2vh 0 0 1.5vw;
+}
+
+
+.notifi {
+    display: flex;
+    margin: 5vh 0;
+}
+
+.notifi img {
+    max-width: 10vw;
+    max-height: 10vh;
 }
