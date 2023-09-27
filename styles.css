@@ -1,18 +1,7 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
-.headr{
-    margin: auto;
-    width: 50%;
-    background-color: grey;
-    color: red;
+*{
+    * { 
+        box-sizing: border-box;
+    }
 }
 
 
