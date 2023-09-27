@@ -11,21 +11,24 @@ body {
     /* height: 1000vh; */
     justify-content: center;
     display: flex;
-    margin: 2rem;
+    margin: 1.9rem;
+    background-color: rgb(234, 229, 229);
 }
 
 .container {
     width: 60%;
     /* margin-top: 10vh; */
-    border: 1px grey solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
-    
+    background-color: white;
+    background-color: rgb(red, green, blue);
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 header p {
@@ -33,6 +36,23 @@ header p {
     font-size: larger;
     color: gray;
     cursor: pointer;
+}
+
+.notification-3 {
+    display: flex;
+    gap: 2vw;
+}
+
+.notification-badge {
+    width: 3vw;
+    height: 5vh;
+    border-radius: 15%;
+    background-color: royalblue;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 3vh 2vw 0 0;
 }
 
 header h1 {
@@ -46,7 +66,7 @@ header h1 {
 }
 
 .notifi-title:hover {
-    color:rgb(48, 150, 150);
+    color: rgb(48, 150, 150);
 }
 
 
@@ -113,6 +133,10 @@ header h1 {
     font-weight: 700;
 }
 
-.unread{
+.read {
+    background-color: white;
+}
+
+.unread {
     background-color: rgba(207, 221, 224, 0.572);
 }
