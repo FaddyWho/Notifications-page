@@ -1,54 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <title>Frontend Mentor | Notifications page</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>notification page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-  <body>
-
-    <div id="headr">
-      <h2>Notifications 5</h2>
-      <h3>Mark all as read</h3>
-    </div>
-
-    <div id="all-noti">
-      <div class="notification">
-        Mark Webber reacted to your recent post My first tournament today!
-        1m ago
-      </div>
-      <div class="notification"></div>
-        Angela Gray followed you
-        5m ago
-      </div>
-      <div class="notification">
-        Jacob Thompson has joined your group Chess Club
-        1 day ago
-      </div>
-      <div class="notification">
-        Rizky Hasanuddin sent you a private message
-        5 days ago
-      </div>
-      <div class="notification">
-        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-        I'm already having lots of fun and improving my game.
-      </div>
-      <div class="notification"></div>
-        Kimberly Smith commented on your picture
-        1 week ago
-      </div>
-      <div class="notification">
-         Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-        2 weeks ago
-      </div>
-      <div class="notification">
-        Anna Kim left the group Chess Club
-        2 weeks ago
-      </div>
+<body>
+  <div class="container">
+    <header>
+      <h1>Notifications <span id="notification-badge">3</span></h1>
+      <p id="markread">Mark all as read</p>
+    </header>
+    <div class="notification">
+      <ul class="notifi-list">
+        <li class="notifi unread">
+          <img src="images/avatar-mark-webber.webp" alt="Profile picture" />
+          <div class="notifi-content">
+            <span class="notifi-title">Mark Webber</span>
+            <span class="notifi-body">reacted to your recent post My first tournament today!</span>
+            <p class="notifi-timestamp">1 min ago</p>
+          </div>
+        </li>
+        <li class="notifi unread">
+          <img src="images/avatar-angela-gray.webp" alt="Profile picture" />
+          <div class="notifi-content">
+            <span class="notifi-title">Angela Gray</span>
+            <span class="notifi-body">followed you</span>
+            <p class="notifi-timestamp">5 min ago</p>
+          </div>
+        </li>
+        <li class="notifi unread">
+          <img src="images/avatar-jacob-thompson.webp" alt="Profile picture" />
+          <div class="notifi-content">
+            <span class="notifi-title">Jacob Thompson</span>
+            <span class="notifi-body">has joined your group Chess Club</span>
+            <p class="notifi-timestamp">1 day ago</p>
+          </div>
+        </li>
+        <li class="notifi read message">
+          <img src="images/avatar-rizky-hasanuddin.webp" alt="Profile picture" />
+          <div class="notifi-content">
+            <span class="notifi-title">Jacob Thompson</span>
+            <span class="notifi-body">sent you a private message</span>
+            <p class="notifi-timestamp">5 day ago</p>
+            <div id="message">
+              <p>
+                Hello! thanks for setting up the chess cup.I have been a
+                member for a few weeks now and I am already having lots of fun
+                while improving my game.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="notifi read comment">
+          <img src="images/avatar-kimberly-smith.webp" alt="Profile picture" />
+          <div class="notifi-content">
+            <span class="notifi-title">Jacob Thompson</span>
+            <span class="notifi-body">commented on your picture</span>
+            <p class="notifi-timestamp">1 week ago</p>
+          </div>
+          <img src="images/image-chess.webp" alt="" id="chess-pic" />
+        </li>
+        <li class="notifi read">
+          <img src="images/avatar-nathan-peterson.webp" alt="Profile picture" />
+          <div class="notifi-content">
+            <span class="notifi-title">Jacob Thompson</span>
+            <span class="notifi-body">reacted to your recent post </span>
+            <span class="strategies">5 end game strategies to improve your win rate</span>
+            <p class="notifi-timestamp">2 weeks ago</p>
+          </div>
+        </li>
+        <li class="notifi read">
+          <img src="images/avatar-anna-kim.webp" alt="Profile picture" />
+          <div class="notifi-content read">
+            <span class="notifi-title">Anna Kim</span>
+            <span class="notifi-body">left the</span>
+            <span class="group-name"> chess club </span>
+            <p class="notifi-timestamp">2 weeks ago</p>
+          </div>
+        </li>
+      </ul>
     </div>
 
     

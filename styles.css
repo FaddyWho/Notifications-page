@@ -4,4 +4,205 @@
     }
 }
 
+<<<<<<< HEAD
 
+=======
+html,
+body {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(224, 218, 218);
+}
+
+.container {
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    margin-top: 5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 2vw 0 2vw;
+
+}
+
+header p {
+    font-size: larger;
+    color: gray;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+#markread {
+    margin: 1% 2% 0 0;
+}
+
+
+
+#notification-badge {
+    width: 30%;
+    height: 40%;
+    font-size: 1.7rem;
+    background: rgb(42, 173, 249);
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 0.2rem 0.4rem;
+    color: rgba(255, 255, 255, 0.931);
+
+
+
+}
+
+
+/* Names */
+
+.notifi-title {
+    font-weight: 800;
+}
+
+.notifi-title:hover {
+    color: rgb(48, 150, 150);
+    cursor: pointer;
+}
+
+
+.notifi-body {
+    color: gray;
+}
+
+.notifi-timestamp {
+    margin: 2vh 0;
+    color: rgb(160, 160, 160);
+}
+
+/* individual notifications */
+
+.notifi {
+    display: flex;
+    margin: 1rem 1.5rem;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.039)
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.notifi img {
+
+    max-height: 10vh;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.notifi-content {
+    width: 100%;
+    padding: 3% 0 0 2vw;
+}
+
+#message {
+    width: 98%;
+    border: 0.1vw solid lightgrey;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#message:hover {
+    background-color: lightblue;
+    color: rgb(55, 55, 55);
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #chess-pic {
+    margin-left: -20vw;
+    max-height: 30vh;
+} */
+
+.strategies {
+    font-weight: 700;
+}
+
+.group-name {
+    color: royalblue;
+    font-weight: 700;
+}
+
+.unread {
+    background-color: rgba(207, 221, 224, 0.572);
+}
+
+@media (max-width: 600px) {
+
+    /* Your CSS rules for devices with a screen width of 600px or less go here */
+    .container {
+        width: 90%;
+    }
+
+    .notifi {
+        margin: 1rem 0rem;
+    }
+}
+
+@media all and (max-width: 375px) {
+    body {
+        background-color: beige;
+
+    }
+
+    .container {
+        width: 100%;
+        border-radius: 0px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: white;
+    }
+
+    header {
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #markread {
+        font-size: 0.8rem;
+        margin: 4% 2% 0 0;
+    }
+
+    #notification-badge {
+        font-size: 1.2rem;
+    }
+
+    .notifi {
+        margin: 0.5rem;
+        border-radius: 10px;
+    }
+
+    /* img{
+        width: 100%;
+    } */
+
+    .notifi img {
+
+        max-height: 7vh;
+        margin: 1rem;
+    }
+}
+>>>>>>> old-state
